@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Mazharul Islam</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/responsive.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="../index.html" class="nav-logo">MI.</a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Page Hero -->
+  <div style="padding: 130px 5% 60px; background: radial-gradient(ellipse 60% 50% at 50% 0%, rgba(255,107,53,0.1) 0%, transparent 60%);">
+    <div style="max-width:1200px; margin:0 auto;">
+      <span class="section-tag">Let's Talk</span>
+      <h1 class="section-title">Get In <span>Touch</span></h1>
+      <p class="section-desc">Have a project in mind or want to collaborate? I'd love to hear from you. Drop a message below!</p>
+    </div>
+  </div>
+
+  <div class="section-divider" style="margin:0 5%;"></div>
+
+  <!-- Contact Layout -->
+  <div style="padding:70px 5%; max-width:1200px; margin:0 auto;">
+    <div class="contact-layout">
+
+      <!-- Left: Info -->
+      <div class="reveal-left">
+        <span class="section-tag">Contact Info</span>
+        <h2 class="section-title" style="margin-bottom:1rem;">Say <span>Hello!</span></h2>
+        <p class="contact-tagline">
+          I'm always open to discussing web projects, freelance opportunities, or just having a conversation about design and development. 
+          Don't hesitate to reach out!
+        </p>
+
+        <div class="contact-methods">
+
+          <a href="mailto:jihadseopro@gmail.com" class="contact-method">
+            <div class="contact-method-icon">📧</div>
+            <div>
+              <div class="contact-method-label">Email</div>
+              <div class="contact-method-value">jihadseopro@gmail.com</div>
+            </div>
+          </a>
+
+          <a href="https://wa.me/8801775236751" target="_blank" class="contact-method">
+            <div class="contact-method-icon wa">💬</div>
+            <div>
+              <div class="contact-method-label">WhatsApp</div>
+              <div class="contact-method-value">+880 1775-236751</div>
+            </div>
+          </a>
+
+          <a href="https://github.com/mazharuldmweb" target="_blank" class="contact-method">
+            <div class="contact-method-icon purple">🐙</div>
+            <div>
+              <div class="contact-method-label">GitHub</div>
+              <div class="contact-method-value">github.com/mazharuldmweb</div>
+            </div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/mazharul-dm-web/" target="_blank" class="contact-method">
+            <div class="contact-method-icon green">💼</div>
+            <div>
+              <div class="contact-method-label">LinkedIn</div>
+              <div class="contact-method-value">Mazharul Islam</div>
+            </div>
+          </a>
+
+        </div>
+
+        <div>
+          <p style="font-size:0.8rem; color:var(--clr-muted); text-transform:uppercase; letter-spacing:1px; font-weight:600; margin-bottom:1rem;">Follow Me</p>
+          <div class="social-links">
+            <a href="https://github.com/mazharuldmweb" target="_blank" class="social-btn" title="GitHub">🐙</a>
+            <a href="https://www.linkedin.com/in/mazharul-dm-web/" target="_blank" class="social-btn" title="LinkedIn">💼</a>
+            <a href="https://wa.me/8801775236751" target="_blank" class="social-btn" title="WhatsApp">💬</a>
+            <a href="mailto:jihadseopro@gmail.com" class="social-btn" title="Email">📧</a>
+          </div>
+        </div>
+
+        <!-- Availability Card -->
+        <div style="margin-top:2.5rem; background:rgba(6,214,160,0.08); border:1px solid rgba(6,214,160,0.2); border-radius:var(--radius-sm); padding:1.5rem;">
+          <div style="display:flex; align-items:center; gap:10px; margin-bottom:0.5rem;">
+            <span style="width:10px; height:10px; background:var(--clr-accent); border-radius:50%; animation: pulse 2s infinite; display:inline-block;"></span>
+            <span style="font-weight:700; font-size:0.95rem; color:var(--clr-accent);">Available for Work</span>
+          </div>
+          <p style="font-size:0.85rem; color:var(--clr-muted); line-height:1.6;">
+            I'm currently open to freelance projects and part-time opportunities. Response time: usually within 24 hours.
+          </p>
+        </div>
+      </div>
+
+      <!-- Right: Form -->
+      <div class="reveal-right">
+        <div class="contact-form-wrap">
+          <h3 class="form-title">Send Me a Message 💌</h3>
+
+          <!-- NOTE: To make this form work, go to https://formspree.io, 
+               create a free account, create a form, and replace YOUR_FORM_ID below -->
+          <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <input type="hidden" name="_replyto" value="jihadseopro@gmail.com" />
+            <input type="hidden" name="_subject" value="New message from your Portfolio!" />
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="name">Your Name</label>
+                <input class="form-input" type="text" id="name" name="name" placeholder="John Doe" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="email">Email Address</label>
+                <input class="form-input" type="email" id="email" name="email" placeholder="john@email.com" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="subject">Subject</label>
+              <input class="form-input" type="text" id="subject" name="subject" placeholder="Project Inquiry / Collaboration" required />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="budget">Budget (Optional)</label>
+              <input class="form-input" type="text" id="budget" name="budget" placeholder="e.g. ৳5,000 - ৳10,000" />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="message">Your Message</label>
+              <textarea class="form-textarea" id="message" name="message" rows="5" placeholder="Tell me about your project or idea..." required></textarea>
+            </div>
+
+            <button type="submit" class="form-submit">Send Message →</button>
+
+            <div id="formSuccess" class="form-success" style="display:none;">
+              <div style="font-size:3rem; margin-bottom:1rem;">🎉</div>
+              <h4 style="font-family:var(--font-display); font-size:1.2rem; margin-bottom:0.5rem;">Message Sent!</h4>
+              <p style="color:var(--clr-muted); font-size:0.9rem;">Thanks for reaching out! I'll get back to you within 24 hours.</p>
+            </div>
+            <div id="formError" style="display:none; text-align:center; padding:1rem; color:#ff6b6b; font-size:0.85rem; margin-top:0.5rem;">
+              Something went wrong. Please try emailing me directly at <a href="mailto:jihadseopro@gmail.com" style="color:var(--clr-primary);">jihadseopro@gmail.com</a>
+            </div>
+          </form>
+        </div>
+
+        <!-- Quick Contact Note -->
+        <p style="font-size:0.8rem; color:var(--clr-muted); text-align:center; margin-top:1rem; line-height:1.6;">
+          💡 <strong style="color:var(--clr-text);">Tip:</strong> For urgent matters, WhatsApp is the fastest way to reach me.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Map / Location Section -->
+  <div style="background: rgba(255,255,255,0.02); border-top:1px solid var(--clr-border); padding:70px 5%;">
+    <div style="max-width:1200px; margin:0 auto; text-align:center;">
+      <span class="section-tag" style="display:block; text-align:center;">Location</span>
+      <h2 class="section-title reveal" style="text-align:center; margin-bottom:1rem;">Based in <span>Bangladesh</span></h2>
+      <p style="color:var(--clr-muted); margin-bottom:3rem;">Working remotely with clients worldwide 🌍</p>
+      <div class="reveal" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:1.5rem; max-width:700px; margin:0 auto;">
+        <div class="card" style="text-align:center; padding:2rem;">
+          <div style="font-size:2rem; margin-bottom:0.75rem;">🇧🇩</div>
+          <div style="font-weight:700; margin-bottom:0.25rem;">Bangladesh</div>
+          <div style="font-size:0.85rem; color:var(--clr-muted);">Home Country</div>
+        </div>
+        <div class="card" style="text-align:center; padding:2rem;">
+          <div style="font-size:2rem; margin-bottom:0.75rem;">🌐</div>
+          <div style="font-weight:700; margin-bottom:0.25rem;">Remote</div>
+          <div style="font-size:0.85rem; color:var(--clr-muted);">Available Worldwide</div>
+        </div>
+        <div class="card" style="text-align:center; padding:2rem;">
+          <div style="font-size:2rem; margin-bottom:0.75rem;">⏰</div>
+          <div style="font-weight:700; margin-bottom:0.25rem;">UTC +6</div>
+          <div style="font-size:0.85rem; color:var(--clr-muted);">Bangladesh Standard Time</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-brand">MI.</div>
+    <p class="footer-copy">© 2025 <span>Mazharul Islam</span>. Crafted with ❤️ & Code.</p>
+    <div class="footer-links">
+      <a href="../index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

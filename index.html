@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mazharul Islam — Frontend Developer</title>
+  <meta name="description" content="Mazharul Islam — Frontend Developer & Web Designer from Bangladesh. Building beautiful, responsive websites." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">MI.</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="pages/about.html">About</a></li>
+      <li><a href="pages/skills.html">Skills</a></li>
+      <li><a href="pages/projects.html">Projects</a></li>
+      <li><a href="pages/contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-orb hero-orb-3"></div>
+
+    <div class="hero-inner">
+      <!-- Left: Content -->
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Available for Work
+        </div>
+        <h1 class="hero-title">
+          <span class="line">Hi, I'm</span>
+          <span class="line gradient-text">Mazharul</span>
+          <span class="line">Islam.</span>
+        </h1>
+        <p class="hero-subtitle">
+          A passionate <strong><span id="typedText">Frontend Developer</span></strong> who crafts beautiful, 
+          responsive websites with clean code and creative design. Currently learning at 
+          <strong>Creative IT Institute</strong>.
+        </p>
+        <div class="hero-btns">
+          <a href="pages/projects.html" class="btn btn-primary">View My Work →</a>
+          <a href="pages/contact.html" class="btn btn-outline">Hire Me</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-num"><span class="counter" data-target="20" data-suffix="+">0+</span></div>
+            <div class="stat-label">Projects Done</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num"><span class="counter" data-target="4" data-suffix="+">0+</span></div>
+            <div class="stat-label">Technologies</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num"><span class="counter" data-target="5" data-suffix=" Mo">0</span></div>
+            <div class="stat-label">Learning Journey</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Photo -->
+      <div class="hero-visual">
+        <div class="hero-photo-wrap">
+          <div class="hero-photo-ring"></div>
+          <div class="hero-photo-ring-2"></div>
+          <div class="hero-photo-bg">
+            <div class="hero-photo-inner">
+              <!-- Replace with your photo: <img src="../assets/photo.jpg" alt="Mazharul Islam" /> -->
+              <span class="hero-photo-placeholder">👨‍💻</span>
+            </div>
+          </div>
+          <div class="hero-float-badge b1">
+            <span class="icon">🎓</span>
+            <div>
+              <div style="font-size:0.7rem;color:var(--clr-muted)">Studying at</div>
+              <div>Creative IT Institute</div>
+            </div>
+          </div>
+          <div class="hero-float-badge b2">
+            <span class="icon">🔥</span>
+            <div>
+              <div style="font-size:0.7rem;color:var(--clr-muted)">Currently</div>
+              <div>Learning JS</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <div class="scroll-mouse"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- What I Do Section -->
+  <div style="background: rgba(255,255,255,0.02); border-top:1px solid var(--clr-border); border-bottom:1px solid var(--clr-border); padding: 80px 5%;">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div style="text-align:center; margin-bottom:3.5rem;">
+        <span class="section-tag">What I Do</span>
+        <h2 class="section-title" style="text-align:center;">I Build Things for the <span>Web</span></h2>
+        <p class="section-desc" style="margin: 0 auto 0; text-align:center;">
+          From pixel-perfect designs to fully responsive websites — I bring ideas to life.
+        </p>
+      </div>
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:1.5rem;">
+
+        <div class="card reveal">
+          <div style="font-size:2.5rem; margin-bottom:1rem;">🎨</div>
+          <h3 style="font-family:var(--font-display); font-size:1.1rem; font-weight:700; margin-bottom:0.75rem;">UI Design</h3>
+          <p style="font-size:0.88rem; color:var(--clr-muted); line-height:1.7;">
+            Crafting visually stunning, user-friendly interfaces that look great on every screen size.
+          </p>
+        </div>
+
+        <div class="card reveal delay-1">
+          <div style="font-size:2.5rem; margin-bottom:1rem;">📱</div>
+          <h3 style="font-family:var(--font-display); font-size:1.1rem; font-weight:700; margin-bottom:0.75rem;">Responsive Websites</h3>
+          <p style="font-size:0.88rem; color:var(--clr-muted); line-height:1.7;">
+            Building websites that work perfectly on mobile, tablet, and desktop — every single time.
+          </p>
+        </div>
+
+        <div class="card reveal delay-2">
+          <div style="font-size:2.5rem; margin-bottom:1rem;">⚡</div>
+          <h3 style="font-family:var(--font-display); font-size:1.1rem; font-weight:700; margin-bottom:0.75rem;">Interactive Animations</h3>
+          <p style="font-size:0.88rem; color:var(--clr-muted); line-height:1.7;">
+            Adding life to websites with smooth CSS animations and JavaScript interactions.
+          </p>
+        </div>
+
+        <div class="card reveal delay-3">
+          <div style="font-size:2.5rem; margin-bottom:1rem;">🧩</div>
+          <h3 style="font-family:var(--font-display); font-size:1.1rem; font-weight:700; margin-bottom:0.75rem;">Clean Code</h3>
+          <p style="font-size:0.88rem; color:var(--clr-muted); line-height:1.7;">
+            Writing structured, readable HTML, CSS & JavaScript that is easy to maintain and scale.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Tech Stack Preview -->
+  <div style="padding: 80px 5%;">
+    <div style="max-width:1200px; margin:0 auto; text-align:center;">
+      <span class="section-tag" style="display:block; text-align:center;">Tech Stack</span>
+      <h2 class="section-title" style="text-align:center; margin-bottom:3rem;">Technologies I <span>Work With</span></h2>
+      <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:1rem;">
+        <div class="skill-chip reveal" style="font-size:1rem; padding:10px 22px;"><span class="chip-dot"></span> HTML5</div>
+        <div class="skill-chip reveal delay-1" style="font-size:1rem; padding:10px 22px;"><span class="chip-dot"></span> CSS3</div>
+        <div class="skill-chip reveal delay-2" style="font-size:1rem; padding:10px 22px;"><span class="chip-dot"></span> JavaScript</div>
+        <div class="skill-chip reveal delay-3" style="font-size:1rem; padding:10px 22px;"><span class="chip-dot"></span> Bootstrap</div>
+        <div class="skill-chip reveal delay-1" style="font-size:1rem; padding:10px 22px;"><span class="chip-dot"></span> Tailwind CSS</div>
+        <div class="skill-chip reveal delay-2" style="font-size:1rem; padding:10px 22px;"><span class="chip-dot"></span> Responsive Design</div>
+        <div class="skill-chip reveal delay-3" style="font-size:1rem; padding:10px 22px;"><span class="chip-dot"></span> Git & GitHub</div>
+      </div>
+      <div style="margin-top:3rem;">
+        <a href="pages/skills.html" class="btn btn-outline">See All Skills →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured Projects Preview -->
+  <div style="background: rgba(255,255,255,0.02); border-top:1px solid var(--clr-border); border-bottom:1px solid var(--clr-border); padding: 80px 5%;">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div style="display:flex; align-items:flex-end; justify-content:space-between; flex-wrap:wrap; gap:1rem; margin-bottom:3rem;">
+        <div>
+          <span class="section-tag">Portfolio</span>
+          <h2 class="section-title">Featured <span>Projects</span></h2>
+        </div>
+        <a href="pages/projects.html" class="btn btn-outline btn-sm">View All →</a>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-thumb">
+            <div class="project-thumb-bg">🛍️</div>
+            <div class="project-thumb-gradient" style="background: linear-gradient(135deg, rgba(255,107,53,0.3), rgba(124,58,237,0.2));"></div>
+            <div class="project-links-overlay">
+              <a href="pages/projects.html" class="project-link-btn">View Details</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+            </div>
+            <h3 class="project-title">E-Commerce Landing Page</h3>
+            <p class="project-desc">A modern, fully responsive e-commerce landing page built with pure HTML & Custom CSS with smooth hover effects.</p>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-1">
+          <div class="project-thumb">
+            <div class="project-thumb-bg">🍔</div>
+            <div class="project-thumb-gradient" style="background: linear-gradient(135deg, rgba(6,214,160,0.3), rgba(124,58,237,0.2));"></div>
+            <div class="project-links-overlay">
+              <a href="pages/projects.html" class="project-link-btn">View Details</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag green">Tailwind</span>
+              <span class="project-tag green">HTML</span>
+            </div>
+            <h3 class="project-title">Restaurant Website</h3>
+            <p class="project-desc">A beautiful restaurant website built with HTML + Tailwind CSS, featuring interactive menu and responsive layout.</p>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-2">
+          <div class="project-thumb">
+            <div class="project-thumb-bg">📋</div>
+            <div class="project-thumb-gradient" style="background: linear-gradient(135deg, rgba(255,214,10,0.2), rgba(255,107,53,0.3));"></div>
+            <div class="project-links-overlay">
+              <a href="pages/projects.html" class="project-link-btn">View Details</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag purple">JavaScript</span>
+              <span class="project-tag">CSS</span>
+            </div>
+            <h3 class="project-title">Task Manager App</h3>
+            <p class="project-desc">An interactive task manager with add/delete/complete functionality built with vanilla JavaScript and custom CSS.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <div style="padding: 100px 5%; text-align:center;">
+    <div style="max-width:700px; margin:0 auto;">
+      <div class="reveal" style="background: linear-gradient(135deg, rgba(255,107,53,0.08), rgba(124,58,237,0.08)); border:1px solid rgba(255,107,53,0.15); border-radius:24px; padding:4rem 3rem;">
+        <h2 class="section-title" style="margin-bottom:1rem;">Let's Work <span>Together</span></h2>
+        <p style="color:var(--clr-muted); font-size:1.05rem; margin-bottom:2.5rem; line-height:1.8;">
+          I'm always open to new opportunities, freelance projects, and collaborations. 
+          Let's build something amazing together!
+        </p>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+          <a href="pages/contact.html" class="btn btn-primary">Get In Touch →</a>
+          <a href="https://github.com/mazharuldmweb" target="_blank" class="btn btn-outline">GitHub Profile</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-brand">MI.</div>
+    <p class="footer-copy">© 2025 <span>Mazharul Islam</span>. Crafted with ❤️ & Code.</p>
+    <div class="footer-links">
+      <a href="pages/about.html">About</a>
+      <a href="pages/projects.html">Projects</a>
+      <a href="pages/contact.html">Contact</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
